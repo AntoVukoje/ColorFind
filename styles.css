@@ -1,0 +1,87 @@
+body{
+  background-color: #0a0a0a;
+
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+button{
+  margin-bottom: 5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    flex-direction: row;
+
+}
+
+.D1 {
+    flex: 0 20%;
+    height: 15rem;
+    margin: 2%; 
+    margin-top: 0;
+    background-color: #FF0000;
+}
+.D2 {
+    flex: 0 20%;
+    height: 15rem;
+    margin: 2%;
+    margin-top: 0;
+    background-color: #f87a03;
+    
+}
+.D3 {
+    flex: 0 20%;
+    height: 15rem;
+    margin: 2%;
+    margin-top: 0;
+    background-color: #f4f810;
+}
+.D4 {
+    flex: 0 20%;
+    height: 15rem;
+    margin: 2%;
+    margin-top: 0;
+    background-color: #09ff00;
+}
+.D5{
+    flex: 0 20%;
+    height: 15rem;
+    margin: 2%;
+    margin-top: 0;
+    background-color: #0400f1;
+    color: white;
+}
+.D6 {
+    flex: 0 20%;
+    height: 15rem;
+    margin: 2%;
+    margin-top: 0;
+    background-color: #8949dd;
+}
+.D7 {
+    flex: 0 20%;
+    height: 15rem;
+    margin: 2%;
+    margin-top: 0;
+    background-color: #cf28c1;
+}
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+
